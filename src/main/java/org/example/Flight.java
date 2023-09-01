@@ -7,7 +7,7 @@ public class Flight {
     private final List<Segment> segments;
 
     Flight(final List<Segment> segments) {
-        segments = segments;
+        this.segments = segments;
     }
     List<Segment> getSegments() {
         return segments;

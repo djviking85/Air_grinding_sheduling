@@ -1,4 +1,4 @@
-
+package org.example;
 
 import org.example.Flight;
 import org.example.Segment;
@@ -13,6 +13,7 @@ public class FlightBuilder {
     public List<Flight> createFlihgts() {
         LocalDateTime fourDaysBeforeFlight = LocalDateTime.now().plusDays(4);
         return  Arrays.asList(
+// делаем рейсы, типа статиков, готовые, тут можно вписать все что угодно, время рейсов
                 //Полет, который идет 2 часа
                 createFlight(fourDaysBeforeFlight, fourDaysBeforeFlight.plusHours(2)),
                 //Рейс, который отправляется раньше, чем прибывает
