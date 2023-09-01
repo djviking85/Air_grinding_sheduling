@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a824e283-b47c-4d42-a276-aafa91eb98dd" name="Changes" comment="readme">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FlightBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SegmentFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SegmentFilterImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -94,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693583921658</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="создание флайтов, билдера">
+      <created>1693588033986</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693588033986</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +113,7 @@
     <MESSAGE value="start test" />
     <MESSAGE value="readme" />
     <MESSAGE value="создание сегмента" />
-    <option name="LAST_COMMIT_MESSAGE" value="создание сегмента" />
+    <MESSAGE value="создание флайтов, билдера" />
+    <option name="LAST_COMMIT_MESSAGE" value="создание флайтов, билдера" />
   </component>
 </project>
