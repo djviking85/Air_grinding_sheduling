@@ -7,7 +7,9 @@ public class Main {
         FlightBuilder flightBuilder = new FlightBuilder();
         List<Flight> flightList = flightBuilder.createFlihgts();
         SegmentFilter segmentFilter = new SegmentFilterImp();
+//        показываем все сегменты
         segmentFilter.showAllSegments(flightList);
+
         System.out.println("-⚑-");
         System.out.println("Фильтр-1. Сегменты с вылетом до текущего момента времени");
         System.out.println("-⚑-");
