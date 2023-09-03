@@ -14,5 +14,3 @@
 
    - Maven
 
-   - Junit 5
-
